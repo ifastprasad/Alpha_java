@@ -14,7 +14,22 @@ public class Question {
         }
         sc.close();
     }
+
+    public static void largesof2Number() {
+        Scanner sc = new Scanner(System.in);
+        System.out.print("enter your first number : ");
+        int a = sc.nextInt();
+        System.out.print("Enter your second number : ");
+        int b = sc.nextInt();
+        if(a > b) {
+            System.out.println("greater is a");
+        }else {
+            System.out.println("greater is b");
+        }
+    }
     public static void main(String arg[]) {
-        odd_even();
+        // odd_even();
+        largesof2Number();
+
     }
 }
