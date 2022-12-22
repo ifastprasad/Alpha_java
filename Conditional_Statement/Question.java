@@ -46,6 +46,7 @@ public class Question {
         // odd_even();
         // largesof2Number();
         incomeTexCal();
+        System.out.println();
 
     }
 }
