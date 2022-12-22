@@ -26,10 +26,26 @@ public class Question {
         }else {
             System.out.println("greater is b");
         }
+        sc.close();
+    }
+
+    public static void incomeTexCal() {
+        Scanner sc = new Scanner(System.in);
+        System.out.print("enter your income : ");
+        int income = sc.nextInt();
+        if(income < 50_0000) {
+            System.out.println("your income tax = 0");
+        }else if(income >= 50_0000 && income <=10_00000) {
+            System.out.println("your income tax = " + (income * 20)/100);
+        }else if(income > 10_00000) {
+            System.out.println("your income tax = " + (income * 30)/100);
+        }
+        sc.close();
     }
     public static void main(String arg[]) {
         // odd_even();
-        largesof2Number();
+        // largesof2Number();
+        incomeTexCal();
 
     }
 }
