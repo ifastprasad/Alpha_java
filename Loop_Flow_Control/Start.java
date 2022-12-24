@@ -12,11 +12,11 @@ public class Start {
         System.out.print("Enter your thi Num = ");
         int c = sc.nextInt();
 
-        if(a > b && b > c) {
+        if(a >= b && a >= c) {
             System.out.println( a +" Is a grater");
-        }else if(b > c && c > a) {
+        }else if(b >= c) {
             System.out.println(b + " Is a grater");
-        }else {
+        }else{
             System.out.println(c + " Is a grater");
         }
     }
