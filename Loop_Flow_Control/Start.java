@@ -13,15 +13,14 @@ public class Start {
         int c = sc.nextInt();
 
         if(a > b && b > c) {
-            System.out.println( a +"Is a grater");
-        }
-        if(b > c && c > a) {
-            System.out.println(b + "Is a grater");
+            System.out.println( a +" Is a grater");
+        }else if(b > c && c > a) {
+            System.out.println(b + " Is a grater");
         }else {
-            System.out.println(C + "Is a grater");
+            System.out.println(c + " Is a grater");
         }
     }
     public static void main(String agr[]) {
-
+        print_lar_3num();
     }
 }
