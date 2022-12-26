@@ -19,7 +19,10 @@ public class Start {
         }else{
             System.out.println(c + " Is a grater");
         }
+        sc.close();
     }
+
+   
     public static void main(String agr[]) {
         print_lar_3num();
     }
