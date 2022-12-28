@@ -93,6 +93,6 @@ public class Start {
         // print_N_primeNumb();
         // printSumof_odd_even();
         // find_Fectorial();
-        prinTable();
+        // prinTable();
     }
 }
